@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -25,36 +24,42 @@
     </ul>
 </nav>
 
-<!-- Container com metade texto e metade imagem -->
 <div class="d-flex p-2 justify-content-between align-items-center bg-warning-subtle text-danger ">
     <div class="text">
-        <h1 class="fw-bold fs-3 ">Bem-vindo ao Nosso Site</h1>
-        <p>Este é um exemplo básico de como estruturar um site utilizando HTML. Aqui você pode ver a divisão entre texto
-            e imagem, bem como a apresentação de cards logo abaixo.</p>
+        <h1 class="fw-bold fs-3">Contatos</h1>
+        <p class=>Aqui é o local que você poderá conversar com a gente</p>
     </div>
     <div class="image">
-        <img src="https://i.pinimg.com/736x/63/7b/1e/637b1e482bab348a8a0d2dab26301d63.jpg" class="col-4 rounded mx-auto d-block rounded-circle"   alt="Exemplo de imagem">
+        <img src="https://i.pinimg.com/736x/11/02/46/1102469f967da3ed7f9563dd9bd1e537.jpg" class="col-4 rounded mx-auto d-block rounded-circle"   alt="Exemplo de imagem">
     </div>
 </div>
 
-<!-- Container com 3 cards -->
-<div class="d-flex justify-content-between p-5 cards bg-warning-subtle text-danger">
-    <div class="col-3 border-radius-7 overflow-y-hidden align-item-center card">
-        <img class="col-5 object-fit-contain" src="https://i.pinimg.com/474x/0a/05/d1/0a05d11d5c4830c0159e5f0022d46498.jpg" alt="Imagem do card 1">
-        <h3 class="p-2 text-danger">Novidades</h3>
-        <p class="p-0 text-danger">Aqui voce encontrará todas as novas coleções.</p>
+<div class="container">
+    <div class="input-group input-group-sm mb-3 mt-8 text-danger">
+      <span class="input-group-text" id="inputGroup-sizing-sm">First name</span>
+      <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+        <span class="input-group-text" id="inputGroup-sizing-sm">Last name</span>
+      <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
     </div>
-    <div class="col-3 border-radius-7 overflow-y-hidden align-itemd-center card text-danger">
-        <img class="col-5 object-fit-contain" src="https://i.pinimg.com/736x/fe/78/ad/fe78ad77f9913dde066a7a97cb144100.jpg" alt="Imagem do card 2">
-        <h3 class="p-2">Limitados</h3>
-        <p class="p-0">Aqui voce encontrará as supresas ilimitadas.</p>
+    <div class="input-group mb-3 mt-8 text-danger">
+      <span class="input-group-text" id="basic-addon1"></span>
+      <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
     </div>
-   <div class="col-3 border-radius-7 overflow-y-hidden align-itemd-center card text-danger">
-        <img class="col-5 object-fit-contain" src="https://i.pinimg.com/736x/f9/13/e5/f913e53a57a657ff3512453336584da8.jpg" alt="Imagem do card 3">
-        <h3 class="p-2">Coleções</h3>
-        <p class="p-0">Aqui voce encontrará todas as nossas coleções.</p>
+    <div class="mb-3 row mt-8 text-danger">
+        <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+        <div class="col-sm-10">
+          <input type="password" class="form-control" id="inputPassword">
+        </div>
     </div>
-
+    <div class="mb-3 mt-8 text-danger">
+      <label for="exampleFormControlInput1" class="form-label">Email de contato</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mb-3 mt-8 text-danger">
+      <label for="exampleFormControlTextarea1" class="form-label">Fale sua duvida aqui</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <button type="button" class="btn btn-danger">enviar</button>
 </div>
 
 <!-- Rodapé -->
