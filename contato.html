@@ -36,30 +36,31 @@
 
 <div class="container">
     <div class="input-group input-group-sm mb-3 mt-8 text-danger">
-      <span class="input-group-text" id="inputGroup-sizing-sm">First name</span>
-      <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-        <span class="input-group-text" id="inputGroup-sizing-sm">Last name</span>
-      <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+      <span onclick="firtsname()"  class="input-group-text" id="first">First name</span>
+      <input onmousedown="color_firstname()" id="firstname" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+        <span onclick="lastname()" class="input-group-text" id="last">Last name</span>
+      <input onmousedown="color_lastname()" id="lastname" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
     </div>
     <div class="input-group mb-3 mt-8 text-danger">
-      <span class="input-group-text" id="basic-addon1"></span>
-      <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+      <span onclick="nameuser()" class="input-group-text" id="basic-addon1"></span>
+      <input onmousedown="color_user()" id="name" type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
     </div>
     <div class="mb-3 row mt-8 text-danger">
-        <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+        <label onclick="senha()" id="senha" for="inputPassword"  class="col-sm-2 col-form-label">Password</label>
         <div class="col-sm-10">
-          <input type="password" class="form-control" id="inputPassword">
+          <input onmousedown="color_senha()" type="password" class="form-control" id="inputPassword">
         </div>
     </div>
     <div class="mb-3 mt-8 text-danger">
-      <label for="exampleFormControlInput1" class="form-label">Email de contato</label>
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      <label onclick="emaila()" id="email" for="exampleFormControlInput1" class="form-label">Email de contato</label>
+      <input onmousedown="color_email()" type="email" class="form-control" id="exampleFormControlInput1"  placeholder="name@example.com">
     </div>
     <div class="mb-3 mt-8 text-danger">
-      <label for="exampleFormControlTextarea1" class="form-label">Fale sua duvida aqui</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      <label onclick="duvida()" id="fale" for="exampleFormControlTextarea1" class="form-label">Fale sua duvida aqui</label>
+      <textarea onmousedown="color_fale()" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
-    <button type="button" class="btn btn-danger">enviar</button>
+    <button type="button" class="btn btn-danger m-3">enviar</button>
+    <button id="inputbnt" onclick="Limparinput()" class="btn btn-danger m-3 " type="submit">Limpar</button>
 </div>
 
 <!-- Rodapé -->
@@ -71,5 +72,6 @@
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <!--nao pode ter nada dps do script-->
+<script src="exemplo.js"></script>
 </body>
 </html>
