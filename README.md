@@ -106,17 +106,28 @@ Quais as melhorias UX que foram aplicadas?
 Foram aplicadas o status carregando, sendo simbolizado por um icone parecido com esse: 
 
 
+<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/687c711e-5f4d-43b0-9ee7-2d3dd8fdf79d" />
+
+
+
+Quais as melhorias UI que foram aplicadas? 
+
+Foram aplicadas as opções de modo escuro e modo claro, sendo diferenciados pelo tom de cores e o ícone presente na parte superior direita da página.
+
+# Antes
+
+<img width="1740" height="868" alt="image" src="https://github.com/user-attachments/assets/08a79b96-b5ad-4785-b67b-a6d59e8104f8" />
+
+
+
+# Depois
 <img width="1865" height="907" alt="image" src="https://github.com/user-attachments/assets/2009a3db-e1e8-4d31-8c9b-7d86e3f16194" />
 
 <img width="1854" height="753" alt="image" src="https://github.com/user-attachments/assets/8204c7a5-5dee-47aa-bd5a-04e627c6817f" />
 
 <img width="1837" height="865" alt="image" src="https://github.com/user-attachments/assets/a116ad92-6055-416b-b60e-89b385395534" />
 
- <img width="1740" height="868" alt="image" src="https://github.com/user-attachments/assets/08a79b96-b5ad-4785-b67b-a6d59e8104f8" />
-
-
  
 
-Quais as melhorias UI que foram aplicadas? 
-
-Foram aplicadas as opções de modo escuro e modo claro, sendo diferenciados pelo tom de cores e o ícone presente na parte superior direita da página. 
+ 
+ 
